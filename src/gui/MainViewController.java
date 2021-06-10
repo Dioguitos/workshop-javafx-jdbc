@@ -16,7 +16,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
-public class MainViewController implements Initializable{
+public class MainViewController implements Initializable {
 	
 	@FXML
 	private MenuItem menuItemSeller;
@@ -43,7 +43,7 @@ public class MainViewController implements Initializable{
 	}
 	
 	@Override
-	public void initialize(URL uri, ResourceBundle rb) {
+	public void initialize(URL url, ResourceBundle rb) {
 	}
 	
 	private synchronized void loadView(String absoluteName) {
